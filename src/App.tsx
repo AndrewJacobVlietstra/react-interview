@@ -10,8 +10,8 @@ import { words } from "./constants/constants";
 
 function App() {
 	// -------------
-	const [result_5, sortedWords] = wordFrequency(words, 5);
-	const [result_10] = wordFrequency(words, 10);
+	const [result_5, sortedWords] = wordFrequency(words, 5); // 5th most frequent word
+	const [result_10] = wordFrequency(words, 10); // 10th most frequent word
 
 	console.log("Sorted Words: ", sortedWords);
 	console.log("5th most frequent word(s): ", result_5);
